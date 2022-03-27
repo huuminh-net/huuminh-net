@@ -9,7 +9,7 @@ NEW_HOSTNAME=$(dialog --title "CHANGE HOSTNAME" --inputbox "Enter new hostname:"
 
 
 if [ ! -n "$NEW_HOSTNAME" ] ; then
-	echo 'Missing argument: new_hostname'
+	echo 'Missing: Hostname'
 	exit 1
 fi
 
